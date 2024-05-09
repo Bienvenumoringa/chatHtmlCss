@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/chat.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body{
+            display: flex;
+        }
+        .left{
+            width: 300px;
+            height: 100vh;
+            background: #F3F3F3;
+            overflow: auto;
+        } .chat-container{
+            width: calc(100% - 300px);
+        }
+        ul {
+            padding: 0;
+            padding-top: 50px;
+        } ul li {
+            list-style: none;
+            padding: 10px;
+            width: calc( 100% - 20px) ;
+            background: #F3F3F3;
+        }
+        ul li:hover{
+            background: #FCFCFC;
+        } ul a{
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            display: flex;
+            color: #1A1C23;
+        }
+        ul li i {
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        ul li{
+            display: flex;
+        }
+        button {
+            color: white;
+            background: #7E3AF2;
+        }
+        .received .text {
+    background-color: #f2f2f2;
+    align-self: flex-start; /* Align left */
+    margin-right: 10px;
+  }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <ul>
+            <a href="">
+                <li>
+                    <div>
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div>
+                        <b>Ngabu immaculée</b><br>
+                        <small>hi !</small>
+                    </div>
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <div>
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div>
+                        <b>Ngabu immaculée</b><br>
+                        <small>hi !</small>
+                    </div>
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <div>
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div>
+                        <b>Ngabu immaculée</b><br>
+                        <small>hi !</small>
+                    </div>
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <div>
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div>
+                        <b>Ngabu immaculée</b><br>
+                        <small>hi !</small>
+                    </div>
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <div>
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div>
+                        <b>Ngabu immaculée</b><br>
+                        <small>hi !</small>
+                    </div>
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <div>
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div>
+                        <b>Ngabu immaculée</b><br>
+                        <small>hi !</small>
+                    </div>
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <div>
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div>
+                        <b>Ngabu immaculée</b><br>
+                        <small>hi !</small>
+                    </div>
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <div>
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div>
+                        <b>Ngabu immaculée</b><br>
+                        <small>hi !</small>
+                    </div>
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <div>
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div>
+                        <b>Ngabu immaculée</b><br>
+                        <small>hi !</small>
+                    </div>
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <div>
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div>
+                        <b>Ngabu immaculée</b><br>
+                        <small>hi !</small>
+                    </div>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="chat-container">
+        <div class="selector-container">
+            <b id="session " class="text-gray-700 dark:text-gray-400"></b>
+
+        </div>
+        <div class="messages">
+            <div class="message received">
+                <div class="sender text-gray-700 dark:text-gray-400">John</div>
+                <div
+                    class="text dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray form-input">
+                    D'accord, le blême, tuu ni mes code php, j utilise du Json même dans mon code php</div>
+            </div>
+            <div class="message sent ">
+                <div class="sender text-gray-700 dark:text-gray-400">Me</div>
+                <div class="text ">Hum</div>
+            </div>
+
+            <div class="message received">
+                <div class="sender text-gray-700 dark:text-gray-400">John</div>
+                <div
+                    class="text dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray form-input">
+                    Je te montre ça demain, on voit comment trouver solution, je crée, d'autres models....!</div>
+            </div>
+            <div class="message sent ">
+                <div class="sender text-gray-700 dark:text-gray-400">Me</div>
+                <div class="text ">Good</div>
+            </div>
+
+
+            <div class="message received">
+                <div class="sender text-gray-700 dark:text-gray-400">John</div>
+                <div
+                    class="text dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray form-input">
+                    Salut bro, ou t'es now ?</div>
+            </div>
+            <div class="message sent ">
+                <div class="sender text-gray-700 dark:text-gray-400">Me</div>
+                <div class="text ">Mgl, Il y a un souci ?</div>
+            </div>
+
+            <div class="message received">
+                <div class="sender text-gray-700 dark:text-gray-400">John</div>
+                <div
+                    class="text dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray form-input">
+                    D'accord, bro, c'est blême de js, la pagination avec js</div>
+            </div>
+            <div class="message sent ">
+                <div class="sender text-gray-700 dark:text-gray-400">Me</div>
+                <div class="text ">Je ne sais pas vraiment comment faire la pagination avec js</div>
+            </div>
+
+
+            <!-- Other messages will be displayed here -->
+        </div>
+
+
+        <form class="input-container bg-white shadow-md dark:bg-gray-800">
+            <input type="text"
+                class="message-input  dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray form-input"
+                placeholder="Type your message...">
+            <button
+                class="send-button  text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple"
+                type="submit"><i class="bi bi-send-fill"></i></button>
+        </form>
+    </div>
+
+</body>
+</html>
